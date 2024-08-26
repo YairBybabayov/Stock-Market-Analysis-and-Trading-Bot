@@ -91,9 +91,9 @@ def send_telegram_message(token, chat_id, message):
     else:
         print(f"Failed to send message: {response.status_code}, {response.text}")
 
-bot_token = '7444315736:AAERueEuaQB41PxqjSZCbw3SPZiY19zw_PA'       # Replace with your bot token
-chat_id = '833689584'           # Replace with your chat ID
-message = 'This is another test message.'
+bot_token = 'bot token'       # Replace with your bot token
+chat_id = 'chat id'           # Replace with your chat ID
+message = 'This is a test message.'
 send_telegram_message(bot_token, chat_id, message)
 
 
